@@ -19,11 +19,14 @@ Working directory:
 
 
 
-&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& 2017020X &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-
-
-
-
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& 20170204 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+1540
+When run the tutorial Deep MNIST for Experts, there's a problem：
+could not find cudnnCreate in cudnn DSO
+Add environment variable: 
+PATH=/usr/local/cuda/bin
+CUDA_HOME=/usr/local/cuda
+LD_LIBRARY_PATH=/usr/local/cuda/lib64
 
 
 

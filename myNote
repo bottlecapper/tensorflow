@@ -29,8 +29,11 @@ CUDA_HOME=/usr/local/cuda
 LD_LIBRARY_PATH=/usr/local/cuda/lib64
 
 
-
-
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& 20170205 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+TensorBoard
+in the terminal, run:
+tensorboard --logdir=/tmp/tensorflow/mnist/logs/fully_connected_feed
+localhost:6006
 
 
 

@@ -50,13 +50,7 @@ add environment variable:
 LD_LIBRARY_PATH=/usr/local/cuda/lib64
 
 
-
-
-
-
-
-
-
+(not successful)
 TypeError: sigmoid_cross_entropy_with_logits() got an unexpected keyword argument 'labels'
 Installing from sources (install the newest version of Tensorflow)
 https://github.com/tensorflow/tensorflow/blob/master/tensorflow/g3doc/get_started/os_setup.md
@@ -99,7 +93,7 @@ Configuration finished
 jg@JG:~/tensorflow$ bazel build --config opt //tensorflow/tools/pip_package:build_pip_package
 jg@JG:~/tensorflow$ bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
 jg@JG:~/tensorflow$ sudo pip3 install /tmp/tensorflow_pkg/tensorflow-0.12.1-cp35-cp35m-linux_x86_64.whl
-
+(not successful)
 
 
 

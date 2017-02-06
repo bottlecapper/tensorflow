@@ -45,7 +45,18 @@ LD_LIBRARY_PATH=/usr/local/cuda/lib64
 
 
 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& 20170206 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-when run the DCGANs code, 
+DCGAN:
+add environment variable:
+LD_LIBRARY_PATH=/usr/local/cuda/lib64
+
+
+
+
+
+
+
+
+
 TypeError: sigmoid_cross_entropy_with_logits() got an unexpected keyword argument 'labels'
 Installing from sources (install the newest version of Tensorflow)
 https://github.com/tensorflow/tensorflow/blob/master/tensorflow/g3doc/get_started/os_setup.md

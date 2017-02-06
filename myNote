@@ -35,8 +35,13 @@ in the terminal, run:
 tensorboard --logdir=/tmp/tensorflow/mnist/logs/fully_connected_feed
 localhost:6006
 
+
 20170205/1100
 tensorboard --logdir=/tmp/tensorflow/mnist/logs/mnist_with_summaries/
+problem:
+cannot open cudnn
+add environment variable:
+LD_LIBRARY_PATH=/usr/local/cuda/lib64
 
 
 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& 20170206 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
